@@ -1,0 +1,535 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SR4G053
+#/2356754/278578/2.47/6/4/Antenna
+DEF SR4G053 ANT 0 30 Y Y 1 F N
+F0 "ANT" 950 300 50 H V L CNN
+F1 "SR4G053" 950 200 50 H V L CNN
+F2 "SR4G053" 950 100 50 H I L CNN
+F3 "https://www.antenova.com/wp-content/uploads/2019/05/Raptor-GNSS-SR4G053-PS-1.1.pdf?hsCtaTracking=de113224-8250-4fb6-b9b8-bdd161b40d2c%7Ccbbce4c7-e218-4411-a0f2-e642bfd2b77d" 950 0 50 H I L CNN
+F4 "RAPTOR GNSS Antenna" 950 -100 50 H I L CNN "Description"
+F5 "1.9" 950 -200 50 H I L CNN "Height"
+F6 "237-SR4G053" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Antenova/SR4G053?qs=T3oQrply3y9bPuxaAJLagQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Antenova" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SR4G053" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X NC_2 2 0 -100 200 R 50 50 0 0 P
+X FEED 3 0 -200 200 R 50 50 0 0 P
+X NC_3 4 1100 -200 200 L 50 50 0 0 P
+X NC_4 5 1100 -100 200 L 50 50 0 0 P
+X NC_5 6 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ANT-LTE-SP610-T
+#/4651795/278578/2.47/4/4/Antenna
+DEF ANT-LTE-SP610-T ANT 0 30 Y Y 1 F N
+F0 "ANT" 1450 300 50 H V L CNN
+F1 "ANT-LTE-SP610-T" 1450 200 50 H V L CNN
+F2 "ANTLTESP610T" 1450 100 50 H I L CNN
+F3 "https://linxtechnologies.com/wp/wp-content/uploads/ant-lte-sp610-pb.pdf" 1450 0 50 H I L CNN
+F4 "Antennas LTE multiband 698-960MHz 1710-2200MHz 2300-2700MHz monopole embedded surface-mount chip antenna" 1450 -100 50 H I L CNN "Description"
+F5 "2.8" 1450 -200 50 H I L CNN "Height"
+F6 "712-ANT-LTE-SP610-T" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/ANT-LTE-SP610-T?qs=XeJtXLiO41QBzk0l0TbQvQ%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Linx Technologies" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ANT-LTE-SP610-T" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X RX/TX 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X MECHANICAL_1 3 1600 0 200 L 50 50 0 0 P
+X MECHANICAL_2 4 1600 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 78646-3001
+#/348251/278578/2.47/6/3/Connector
+DEF 78646-3001 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "78646-3001" 750 200 50 H V L CNN
+F2 "78646-3001" 750 100 50 H I L CNN
+F3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/0786463001_MEMORY_CARD_SOCKET.pdf" 750 0 50 H I L CNN
+F4 "micro-SIM card socket, push-pull SMT,6P micro-SIM card socket, push-pull SMT,6P" 750 -100 50 H I L CNN "Description"
+F5 "" 750 -200 50 H I L CNN "Height"
+F6 "538-78646-3001" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/78646-3001?qs=73RpG39PUGjMbv8L71Th0w%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "78646-3001" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X C1 1 0 0 200 R 50 50 0 0 P
+X C2 2 0 -100 200 R 50 50 0 0 P
+X C3 3 0 -200 200 R 50 50 0 0 P
+X C5 4 900 0 200 L 50 50 0 0 P
+X C6 5 900 -100 200 L 50 50 0 0 P
+X C7 6 900 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ESDA6V1-5SC6Y
+#/770306/278578/2.47/6/3/TVS Diode (Uni-directional)
+DEF ESDA6V1-5SC6Y D 0 30 Y Y 1 F N
+F0 "D" 950 300 50 H V L CNN
+F1 "ESDA6V1-5SC6Y" 950 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/ESDA6V1-5SC6Y.pdf" 950 0 50 H I L CNN
+F4 "ESD Suppressors / TVS Diodes Automotive-grade 5-line transient voltage suppressor (TVS) for ESD protection" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "511-ESDA6V1-5SC6Y" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDA6V1-5SC6Y?qs=u4fy%2FsgLU9PB8gx5PfstAQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ESDA6V1-5SC6Y" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X I/O1 1 0 0 200 R 50 50 0 0 B
+X GND 2 0 -100 200 R 50 50 0 0 W
+X I/O2 3 0 -200 200 R 50 50 0 0 B
+X I/O5 6 1100 0 200 L 50 50 0 0 B
+X I/O4 5 1100 -100 200 L 50 50 0 0 B
+X I/O3 4 1100 -200 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 47219-2001
+#/232218/278578/2.47/12/4/Connector
+DEF 47219-2001 J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "47219-2001" 1150 200 50 H V L CNN
+F2 "472192001" 1150 100 50 H I L CNN
+F3 "http://www.molex.com/molex/products/datasheet.jsp?part=active/0472192001_MEMORY_CARD_SOCKET.xml&channel=Products&Lang=en-US" 1150 0 50 H I L CNN
+F4 "Molex 47219 Series 8 Way Horizontal Hinged Micro SD Memory Card Connector with Solder Termination" 1150 -100 50 H I L CNN "Description"
+F5 "" 1150 -200 50 H I L CNN "Height"
+F6 "538-47219-2001" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/47219-2001?qs=6kT3pPPHxnVaoXw6Dd7beQ%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "47219-2001" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X DAT2 1 0 0 200 R 50 50 0 0 P
+X CD/DAT3 2 0 -100 200 R 50 50 0 0 P
+X CMD 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 0 -300 200 R 50 50 0 0 P
+X CLK 5 0 -400 200 R 50 50 0 0 P
+X VSS 6 0 -500 200 R 50 50 0 0 P
+X DAT0 7 1300 0 200 L 50 50 0 0 P
+X DAT1 8 1300 -100 200 L 50 50 0 0 P
+X GND_1 9 1300 -200 200 L 50 50 0 0 P
+X GND_2 10 1300 -300 200 L 50 50 0 0 P
+X GND_3 11 1300 -400 200 L 50 50 0 0 P
+X GND_4 12 1300 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LXES03AAA1-154
+#/310294/278578/2.47/2/3/TVS Diode (Bi-directional)
+DEF LXES03AAA1-154 D 0 30 Y Y 1 F N
+F0 "D" 600 350 50 H V L BNN
+F1 "LXES03AAA1-154" 600 250 50 H V L BNN
+F2 "DIONC0603X33N" 600 150 50 H I L BNN
+F3 "https://www.arrow.com/en/products/lxes03aaa1-154/murata-manufacturing" 600 50 50 H I L BNN
+F4 "ESD Suppressor TVS 4V 2-Pin Case 0201 Tray" 600 -50 50 H I L BNN "Description"
+F5 "0.33" 600 -150 50 H I L BNN "Height"
+F6 "81-LXES03AAA1-154" 600 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LXES03AAA1-154?qs=Ey7%2FXF42M3eRj7tZRJ%252BUFw%3D%3D" 600 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Murata Electronics" 600 -450 50 H I L BNN "Manufacturer_Name"
+F9 "LXES03AAA1-154" 600 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 B
+X ~ 2 800 0 200 L 50 50 0 0 B
+P 4 0 1 6 400 0 600 100 600 -100 400 0 N
+P 4 0 1 6 400 0 200 100 200 -100 400 0 N
+P 2 0 1 6 400 -80 440 -100 N
+P 2 0 1 6 360 100 400 80 N
+P 2 0 1 6 400 -80 400 80 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TAJC107K006SNJ
+#/670621/278578/2.47/2/5/Capacitor Polarised
+DEF TAJC107K006SNJ C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "TAJC107K006SNJ" 350 150 50 H V L CNN
+F2 "CAPPM6032X280N" 350 50 50 H I L CNN
+F3 "http://datasheets.avx.com/TAJ.pdf" 350 -50 50 H I L CNN
+F4 "Tantalum Capacitors - Solid SMD 6.3volts 100uF 10%" 350 -150 50 H I L CNN "Description"
+F5 "2.8" 350 -250 50 H I L CNN "Height"
+F6 "581-TAJC107K006SNJ" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/AVX/TAJC107K006SNJ?qs=R9jFzf8qJyw74zhPyWlAvg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "TAJC107K006SNJ" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MMSZ5231BT1G
+#/310043/278578/2.47/2/4/Zener Diode
+DEF MMSZ5231BT1G Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "MMSZ5231BT1G" 400 250 50 H V L CNN
+F2 "SOD3716X135N" 400 150 50 H I L CNN
+F3 "http://www.onsemi.com/pub_link/Collateral/MMSZ5221BT1-D.PDF" 400 50 50 H I L CNN
+F4 "5.1V Zener diode,MMSZ5231B 500mW ON Semiconductor MMSZ5231BT1G Zener Diode, 5.1V 5% 0.5 W SMT 2-Pin SOD-123" 400 -50 50 H I L CNN "Description"
+F5 "1.35" 400 -150 50 H I L CNN "Height"
+F6 "863-MMSZ5231BT1G" 400 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MMSZ5231BT1G?qs=P4IOph%252Bbot%2FUEpHENPMrdw%3D%3D" 400 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 400 -450 50 H I L CNN "Manufacturer_Name"
+F9 "MMSZ5231BT1G" 400 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model REG71050DDCR
+#/805881/278578/2.47/6/3/Integrated Circuit
+DEF REG71050DDCR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "REG71050DDCR" 1250 200 50 H V L CNN
+F2 "SOT95P280X110-6N" 1250 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/REG71050" 1250 0 50 H I L CNN
+F4 "60-mA, 5.0-V, Buck/Boost Charge Pump in ThinSOT-23" 1250 -100 50 H I L CNN "Description"
+F5 "1.1" 1250 -200 50 H I L CNN "Height"
+F6 "595-REG71050DDCR" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REG71050DDCR?qs=sSOk4GDDv7w%2FF3O8izAevQ%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "REG71050DDCR" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VOUT 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X ENABLE 3 0 -200 200 R 50 50 0 0 P
+X C_PUMP+ 6 1400 0 200 L 50 50 0 0 P
+X VIN 5 1400 -100 200 L 50 50 0 0 P
+X CPUMP- 4 1400 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model W3010
+#/924003/278578/2.47/2/3/Antenna
+DEF W3010 ANT 0 30 Y Y 1 F N
+F0 "ANT" 750 300 50 H V L CNN
+F1 "W3010" 750 200 50 H V L CNN
+F2 "ANTC10032X400N" 750 100 50 H I L CNN
+F3 "https://www.pulseelectronics.com/docs/library/W3010.pdf" 750 0 50 H I L CNN
+F4 "Pulse SMT Antenna W3010, 1575.42 MHz" 750 -100 50 H I L CNN "Description"
+F5 "4" 750 -200 50 H I L CNN "Height"
+F6 "673-W3010" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/PulseLarsen-Antennas/W3010?qs=zks35mai6wNg7ENA8KnmdA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Pulse" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "W3010" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X FEED 1 0 0 200 R 50 50 0 0 I
+X NC 2 0 -100 200 R 50 50 0 0 N
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model W3070
+#/1022591/278578/2.47/2/3/Antenna
+DEF W3070 ANT 0 30 Y Y 1 F N
+F0 "ANT" 750 300 50 H V L CNN
+F1 "W3070" 750 200 50 H V L CNN
+F2 "ANTC10032X200N" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/W3070.pdf" 750 0 50 H I L CNN
+F4 "Antennas Dual Band Antenna Ceramic 900/1800MHz" 750 -100 50 H I L CNN "Description"
+F5 "2" 750 -200 50 H I L CNN "Height"
+F6 "673-W3070" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/PulseLarsen-Antennas/W3070?qs=%252BUGZmmosPSJ%252BBvZGLkA1UA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Pulse" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "W3070" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X FEED 1 0 0 200 R 50 50 0 0 I
+X NC 2 0 -100 200 R 50 50 0 0 N
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model W3073
+#/1126653/278578/2.47/2/3/Antenna
+DEF W3073 ANT 0 30 Y Y 1 F N
+F0 "ANT" 750 300 50 H V L CNN
+F1 "W3073" 750 200 50 H V L CNN
+F2 "ANTC10032X410N" 750 100 50 H I L CNN
+F3 "" 750 0 50 H I L CNN
+F4 "Antennas Quad Band Antenna Ceramic 3G/GSM" 750 -100 50 H I L CNN "Description"
+F5 "4.1" 750 -200 50 H I L CNN "Height"
+F6 "673-W3073" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/PulseLarsen-Antennas/W3073?qs=opBjA1TV901jiGPqzhsErg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Pulse" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "W3073" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X FEED 1 0 0 200 R 50 50 0 0 I
+X NC 2 0 -100 200 R 50 50 0 0 N
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model R30-3001602
+#/637614/278578/2.47/1/4/Hardware
+DEF R30-3001602 H 0 30 Y Y 1 F N
+F0 "H" 650 300 50 H V L CNN
+F1 "R30-3001602" 650 200 50 H V L CNN
+F2 "R303001602" 650 100 50 H I L CNN
+F3 "https://cdn.harwin.com/pdfs/R30-300.pdf" 650 0 50 H I L CNN
+F4 "Male/Female PCB spacer, M3, 16mm length" 650 -100 50 H I L CNN "Description"
+F5 "16" 650 -200 50 H I L CNN "Height"
+F6 "855-R30-3001602" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Harwin/R30-3001602?qs=%252Bk6%2F5FB6qrnoI2C6gxe45w%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Harwin" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "R30-3001602" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ICM-20948
+#/805885/278578/2.47/25/4/Integrated Circuit
+DEF ICM-20948 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 1000 50 H V L CNN
+F1 "ICM-20948" 1050 900 50 H V L CNN
+F2 "QFN40P300X300X105-25N-D" 1050 800 50 H I L CNN
+F3 "https://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf" 1050 700 50 H I L CNN
+F4 "Multiple Function Sensor Modules World\'s Lowest Power 9-Axis MEMS MotionTracking Device" 1050 600 50 H I L CNN "Description"
+F5 "1.05" 1050 500 50 H I L CNN "Height"
+F6 "410-ICM-20948" 1050 400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-20948?qs=u4fy%2FsgLU9OtGc31yF%2Friw%3D%3D" 1050 300 50 H I L CNN "Mouser Price/Stock"
+F8 "InvenSense Inc." 1050 200 50 H I L CNN "Manufacturer_Name"
+F9 "ICM-20948" 1050 100 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X NC_2 2 0 -100 200 R 50 50 0 0 P
+X NC_3 3 0 -200 200 R 50 50 0 0 P
+X NC_4 4 0 -300 200 R 50 50 0 0 P
+X NC_5 5 0 -400 200 R 50 50 0 0 P
+X NC_6 6 0 -500 200 R 50 50 0 0 P
+X AUX_CL 7 300 -1300 200 U 50 50 0 0 P
+X VDDIO 8 400 -1300 200 U 50 50 0 0 P
+X SDO/AD0 9 500 -1300 200 U 50 50 0 0 P
+X REGOUT 10 600 -1300 200 U 50 50 0 0 P
+X FSYNC 11 700 -1300 200 U 50 50 0 0 P
+X INT1 12 800 -1300 200 U 50 50 0 0 P
+X GND 18 1200 0 200 L 50 50 0 0 P
+X NC_10 17 1200 -100 200 L 50 50 0 0 P
+X NC_9 16 1200 -200 200 L 50 50 0 0 P
+X NC_8 15 1200 -300 200 L 50 50 0 0 P
+X NC_7 14 1200 -400 200 L 50 50 0 0 P
+X VDD 13 1200 -500 200 L 50 50 0 0 P
+X THERMAL_PAD 25 300 1000 200 D 50 50 0 0 P
+X SDA/SDI 24 400 1000 200 D 50 50 0 0 P
+X SCL/SCLK 23 500 1000 200 D 50 50 0 0 P
+X NCS 22 600 1000 200 D 50 50 0 0 P
+X AUX_DA 21 700 1000 200 D 50 50 0 0 P
+X RESV_2 20 800 1000 200 D 50 50 0 0 P
+X RESV_1 19 900 1000 200 D 50 50 0 0 P
+P 5 0 1 6 200 800 1000 800 1000 -1100 200 -1100 200 800 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ADP150AUJZ-1.8-R7
+#/358046/278578/2.47/5/4/Integrated Circuit
+DEF ADP150AUJZ-1.8-R7 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ADP150AUJZ-1.8-R7" 950 200 50 H V L CNN
+F2 "SOT95P280X100-5N" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "Voltage Reg. Low Noise 150mA 1.8V TSOT5 Analog Devices ADP150AUJZ-1.8-R7, Single Linear Voltage Regulator, 150mA 1.8 V, -2.5  1.5%, 5-Pin TSOT" 950 -100 50 H I L CNN "Description"
+F5 "1" 950 -200 50 H I L CNN "Height"
+F6 "584-ADP150AUJZ-1.8R7" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP150AUJZ-18-R7?qs=WIvQP4zGanj6me7Xqf%252BL8w%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ADP150AUJZ-1.8-R7" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X NC 4 1100 0 200 L 50 50 0 0 N
+X VOUT 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MPU-9250
+#/767036/278578/2.47/25/4/Integrated Circuit
+DEF MPU-9250 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 800 50 H V L CNN
+F1 "MPU-9250" 1050 700 50 H V L CNN
+F2 "QFN40P300X300X105-25N-D" 1050 600 50 H I L CNN
+F3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" 1050 500 50 H I L CNN
+F4 "Multiple Function Sensor Modules Nine-Axis (Gyro + Accelerometer + Compass) MEMS MotionTracking Device" 1050 400 50 H I L CNN "Description"
+F5 "1.05" 1050 300 50 H I L CNN "Height"
+F6 "410-MPU-9250" 1050 200 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/MPU-9250?qs=u4fy%2FsgLU9OhGjFkQSZssA%3D%3D" 1050 100 50 H I L CNN "Mouser Price/Stock"
+F8 "InvenSense Inc." 1050 0 50 H I L CNN "Manufacturer_Name"
+F9 "MPU-9250" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X RESV_1 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X NC_2 3 0 -200 200 R 50 50 0 0 P
+X NC_3 4 0 -300 200 R 50 50 0 0 P
+X NC_4 5 0 -400 200 R 50 50 0 0 P
+X NC_5 6 0 -500 200 R 50 50 0 0 P
+X AUX_CL 7 300 -1300 200 U 50 50 0 0 P
+X VDDIO 8 400 -1300 200 U 50 50 0 0 P
+X AD0/SDO 9 500 -1300 200 U 50 50 0 0 P
+X REGOUT 10 600 -1300 200 U 50 50 0 0 P
+X FSYNC 11 700 -1300 200 U 50 50 0 0 P
+X INT 12 800 -1300 200 U 50 50 0 0 P
+X GND 18 1200 0 200 L 50 50 0 0 P
+X NC_9 17 1200 -100 200 L 50 50 0 0 P
+X NC_8 16 1200 -200 200 L 50 50 0 0 P
+X NC_7 15 1200 -300 200 L 50 50 0 0 P
+X NC_6 14 1200 -400 200 L 50 50 0 0 P
+X VDD 13 1200 -500 200 L 50 50 0 0 P
+X EP 25 300 800 200 D 50 50 0 0 P
+X SDA/SDI 24 400 800 200 D 50 50 0 0 P
+X SCL/SCLK 23 500 800 200 D 50 50 0 0 P
+X ~CS 22 600 800 200 D 50 50 0 0 P
+X AUX_DA 21 700 800 200 D 50 50 0 0 P
+X RESV_3 20 800 800 200 D 50 50 0 0 P
+X RESV_2 19 900 800 200 D 50 50 0 0 P
+P 5 0 1 6 200 600 1000 600 1000 -1100 200 -1100 200 600 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SR4G008
+#/736745/278578/2.47/6/4/Antenna
+DEF SR4G008 ANT 0 30 Y Y 1 F N
+F0 "ANT" 1050 300 50 H V L CNN
+F1 "SR4G008" 1050 200 50 H V L CNN
+F2 "SR4G008" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/SR4G008.pdf" 1050 0 50 H I L CNN
+F4 "Antennas 1559-1609MHz Avg. Eff >75% Linear" 1050 -100 50 H I L CNN "Description"
+F5 "" 1050 -200 50 H I L CNN "Height"
+F6 "237-SR4G008" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Antenova/SR4G008?qs=vyIerDHf%2Fmn%2FnBMYNSbzrA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Antenova" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SR4G008" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X FEED 2 0 -100 200 R 50 50 0 0 P
+X GND_1 3 0 -200 200 R 50 50 0 0 P
+X GND_2 4 1200 -200 200 L 50 50 0 0 P
+X NC_2 5 1200 -100 200 L 50 50 0 0 P
+X GND_3 6 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CONUFL001-SMD
+#/861256/278578/2.47/3/4/Antenna
+DEF CONUFL001-SMD ANT 0 30 Y Y 1 F N
+F0 "ANT" 950 300 50 H V L CNN
+F1 "CONUFL001-SMD" 950 200 50 H V L CNN
+F2 "CONUFL001-SMD" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/CONUFL001-SMD.pdf" 950 0 50 H I L CNN
+F4 "RF Connectors / Coaxial Connectors U.FL Straight Surface Mount Jack" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "712-CONUFL001-SMD" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONUFL001-SMD?qs=gt1LBUVyoHmYTl61nURe0w%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Linx Technologies" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CONUFL001-SMD" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SIG 1 0 0 200 R 50 50 0 0 I
+X GND_1 2 1100 0 200 L 50 50 0 0 P
+X GND_2 3 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 52745-1033
+#/1345633/278578/2.49/10/4/Connector
+DEF 52745-1033 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "52745-1033" 750 200 50 H V L CNN
+F2 "0527451033" 750 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/527450433_sd.pdf" 750 0 50 H I L CNN
+F4 "FFC & FPC Connectors 0.5 FPC ZIF 10Ckt Sn-Ag-Bi" 750 -100 50 H I L CNN "Description"
+F5 "" 750 -200 50 H I L CNN "Height"
+F6 "538-52745-1033" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/52745-1033?qs=BTG2th8YmhQFZ5o%2FAYhoXg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "52745-1033" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 900 0 200 L 50 50 0 0 P
+X 7 7 900 -100 200 L 50 50 0 0 P
+X 8 8 900 -200 200 L 50 50 0 0 P
+X 9 9 900 -300 200 L 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1N4148
+#/1004428/278578/2.49/2/3/Diode
+DEF 1N4148 D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "1N4148" 450 100 50 H V L CNN
+F2 "DIOAD1068W53L380D172" 450 0 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/1N914A-D.pdf" 450 -100 50 H I L CNN
+F4 "Small Signal Diode, 100V 0.3A 2-Pin DO35" 450 -200 50 H I L CNN "Description"
+F5 "" 450 -300 50 H I L CNN "Height"
+F6 "512-1N4148" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/1N4148?qs=i4Fj9T%2FoRm8RMUhj5DeFQg%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "1N4148" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

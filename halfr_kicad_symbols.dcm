@@ -1,0 +1,129 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SR4G053
+D RAPTOR GNSS Antenna
+K
+F https://www.antenova.com/wp-content/uploads/2019/05/Raptor-GNSS-SR4G053-PS-1.1.pdf?hsCtaTracking=de113224-8250-4fb6-b9b8-bdd161b40d2c%7Ccbbce4c7-e218-4411-a0f2-e642bfd2b77d
+$ENDCMP
+#
+$CMP ANT-LTE-SP610-T
+D Antennas LTE multiband 698-960MHz 1710-2200MHz 2300-2700MHz monopole embedded surface-mount chip antenna
+K
+F https://linxtechnologies.com/wp/wp-content/uploads/ant-lte-sp610-pb.pdf
+$ENDCMP
+#
+$CMP 78646-3001
+D micro-SIM card socket, push-pull SMT,6P micro-SIM card socket, push-pull SMT,6P
+K
+F http://www.molex.com/webdocs/datasheets/pdf/en-us/0786463001_MEMORY_CARD_SOCKET.pdf
+$ENDCMP
+#
+$CMP ESDA6V1-5SC6Y
+D ESD Suppressors / TVS Diodes Automotive-grade 5-line transient voltage suppressor (TVS) for ESD protection
+K
+F https://componentsearchengine.com/Datasheets/1/ESDA6V1-5SC6Y.pdf
+$ENDCMP
+#
+$CMP 47219-2001
+D Molex 47219 Series 8 Way Horizontal Hinged Micro SD Memory Card Connector with Solder Termination
+K
+F http://www.molex.com/molex/products/datasheet.jsp?part=active/0472192001_MEMORY_CARD_SOCKET.xml&channel=Products&Lang=en-US
+$ENDCMP
+#
+$CMP LXES03AAA1-154
+D ESD Suppressor TVS 4V 2-Pin Case 0201 Tray
+K
+F https://www.arrow.com/en/products/lxes03aaa1-154/murata-manufacturing
+$ENDCMP
+#
+$CMP TAJC107K006SNJ
+D Tantalum Capacitors - Solid SMD 6.3volts 100uF 10%
+K
+F http://datasheets.avx.com/TAJ.pdf
+$ENDCMP
+#
+$CMP MMSZ5231BT1G
+D 5.1V Zener diode,MMSZ5231B 500mW ON Semiconductor MMSZ5231BT1G Zener Diode, 5.1V 5% 0.5 W SMT 2-Pin SOD-123
+K
+F http://www.onsemi.com/pub_link/Collateral/MMSZ5221BT1-D.PDF
+$ENDCMP
+#
+$CMP REG71050DDCR
+D 60-mA, 5.0-V, Buck/Boost Charge Pump in ThinSOT-23
+K
+F http://www.ti.com/lit/gpn/REG71050
+$ENDCMP
+#
+$CMP W3010
+D Pulse SMT Antenna W3010, 1575.42 MHz
+K
+F https://www.pulseelectronics.com/docs/library/W3010.pdf
+$ENDCMP
+#
+$CMP W3070
+D Antennas Dual Band Antenna Ceramic 900/1800MHz
+K
+F https://componentsearchengine.com/Datasheets/1/W3070.pdf
+$ENDCMP
+#
+$CMP W3073
+D Antennas Quad Band Antenna Ceramic 3G/GSM
+K
+F 
+$ENDCMP
+#
+$CMP R30-3001602
+D Male/Female PCB spacer, M3, 16mm length
+K
+F https://cdn.harwin.com/pdfs/R30-300.pdf
+$ENDCMP
+#
+$CMP ICM-20948
+D Multiple Function Sensor Modules World's Lowest Power 9-Axis MEMS MotionTracking Device
+K
+F https://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf
+$ENDCMP
+#
+$CMP ADP150AUJZ-1.8-R7
+D Voltage Reg. Low Noise 150mA 1.8V TSOT5 Analog Devices ADP150AUJZ-1.8-R7, Single Linear Voltage Regulator, 150mA 1.8 V, -2.5  1.5%, 5-Pin TSOT
+K
+F 
+$ENDCMP
+#
+$CMP MPU-9250
+D Multiple Function Sensor Modules Nine-Axis (Gyro + Accelerometer + Compass) MEMS MotionTracking Device
+K
+F https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf
+$ENDCMP
+#
+$CMP SR4G008
+D Antennas 1559-1609MHz Avg. Eff >75% Linear
+K
+F https://componentsearchengine.com/Datasheets/1/SR4G008.pdf
+$ENDCMP
+#
+$CMP CONUFL001-SMD
+D RF Connectors / Coaxial Connectors U.FL Straight Surface Mount Jack
+K
+F https://componentsearchengine.com/Datasheets/1/CONUFL001-SMD.pdf
+$ENDCMP
+#
+$CMP 52745-1033
+D FFC & FPC Connectors 0.5 FPC ZIF 10Ckt Sn-Ag-Bi
+K
+F https://www.molex.com/pdm_docs/sd/527450433_sd.pdf
+$ENDCMP
+#
+$CMP 1N4148
+D Small Signal Diode, 100V 0.3A 2-Pin DO35
+K
+F https://www.onsemi.com/pub/Collateral/1N914A-D.pdf
+$ENDCMP
+#
+#End Doc Library
