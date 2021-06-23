@@ -1,4 +1,4 @@
-18696092274880287
+18700963902481776
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82166,12 +82166,26 @@ HHKB pro2, JST, ZH
 15
 15
 halfr_kicad_footprints
+HJ-840
+
+
+0
+64
+64
+halfr_kicad_footprints
 HRO-TYPE-C-31-M-12
 
 
 0
 16
 13
+halfr_kicad_footprints
+ICM-20948-QFN40P300X300X105-24N
+
+
+0
+24
+24
 halfr_kicad_footprints
 MSK-12D19_Sliding_Switch
 
@@ -82256,6 +82270,13 @@ kailh,choc
 0
 3
 2
+halfr_kicad_footprints
+XDCR_BMP280
+
+
+0
+8
+8
 halfr_kicad_footprints
 battery_holder_bs-7
 http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf
