@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ICM-20948)(type Legacy)(uri ${KIPRJMOD}/ICM-20948/ICM-20948.lib)(options "")(descr "")(disabled))
+  (lib (name BMP280)(type Legacy)(uri ${LOCAL_ASSETS}/BMP280/BMP280.lib)(options "")(descr "")(disabled))
+)

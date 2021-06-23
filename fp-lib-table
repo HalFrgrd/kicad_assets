@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ICM-20948)(type KiCad)(uri ${KIPRJMOD}/ICM-20948)(options "")(descr "")(disabled))
+  (lib (name BMP280)(type KiCad)(uri ${KIPRJMOD}/BMP280)(options "")(descr "")(disabled))
+)
