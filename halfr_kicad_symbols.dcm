@@ -29,6 +29,12 @@ D Antennas LTE multiband 698-960MHz 1710-2200MHz 2300-2700MHz monopole embedded 
 F https://linxtechnologies.com/wp/wp-content/uploads/ant-lte-sp610-pb.pdf
 $ENDCMP
 #
+$CMP BMA400_CONN
+D Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP CONUFL001-SMD
 D RF Connectors / Coaxial Connectors U.FL Straight Surface Mount Jack
 F https://componentsearchengine.com/Datasheets/1/CONUFL001-SMD.pdf
