@@ -1,0 +1,5 @@
+*.zip
+templates/
+*.dcm
+*.epw
+*.wrl

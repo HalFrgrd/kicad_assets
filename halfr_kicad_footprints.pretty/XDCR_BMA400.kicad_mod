@@ -1,4 +1,4 @@
-(module XDCR_BMA400 (layer F.Cu) (tedit 60D32AD8)
+(module XDCR_BMA400 (layer F.Cu) (tedit 6102786E)
   (fp_text reference REF** (at -0.108 -1.8844) (layer F.SilkS)
     (effects (font (size 0.64 0.64) (thickness 0.015)))
   )

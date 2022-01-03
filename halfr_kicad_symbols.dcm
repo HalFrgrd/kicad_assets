@@ -73,6 +73,11 @@ D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
+$CMP NPM1100-CAAA-R
+D NPM1100 POWER MANAGEMENT IC
+F https://infocenter.nordicsemi.com/pdf/nPM1100_PS_v1.0.pdf
+$ENDCMP
+#
 $CMP R30-3001602
 D Male/Female PCB spacer, M3, 16mm length
 F https://cdn.harwin.com/pdfs/R30-300.pdf
@@ -91,6 +96,17 @@ $ENDCMP
 $CMP SR4G053
 D RAPTOR GNSS Antenna
 F https://www.antenova.com/wp-content/uploads/2019/05/Raptor-GNSS-SR4G053-PS-1.1.pdf?hsCtaTracking=de113224-8250-4fb6-b9b8-bdd161b40d2c%7Ccbbce4c7-e218-4411-a0f2-e642bfd2b77d
+$ENDCMP
+#
+$CMP STNS01PUR
+D Li-Ion Battery Charger with LDO DFN12EP STMicroelectronics STNS01PUR, Battery Charge Controller IC, 200mA, 12-Pin DFN
+F https://componentsearchengine.com/Datasheets/2/STNS01PUR.pdf
+$ENDCMP
+#
+$CMP SW_Push_with_contact
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
 $ENDCMP
 #
 $CMP TAJC107K006SNJ
