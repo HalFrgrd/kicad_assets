@@ -6,6 +6,12 @@
 *.kicad_prl
 fp-info-cache
 
+# Python & importer caches
+.venv/
+.easyeda_cache/
+__pycache__/
+*.pyc
+
 # Archives and legacy export formats
 *.zip
 *.epw
