@@ -1,0 +1,457 @@
+(footprint "BGA25C40P5X5_208X208X52"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "WLCSP 2.075x2.075")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 2.9736 0.2652 0)
+		(layer "F.SilkS")
+		(uuid "56f1ae01-e12a-4e7f-b3f7-8e51c3f72432")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "NPM1100-CAAA-R"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6e3713cd-44dd-45a5-857e-7948636af15e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8e97c89-4d73-4e25-8cde-8a94d6501019")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "NPM1100 POWER MANAGEMENT IC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1bd06a1-e390-4092-8424-2e9819b3e6ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Arrow Part Number" "NPM1100-CAAA-R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa314d43-eaba-47ba-8bd0-0d5d09a4b455")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/npm1100-caaa-r/nordic-semiconductor?region=nac"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67e00087-8622-4872-820c-3fac957d4bf7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.522"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d98e472d-e014-49a3-b2c6-2bc2837e923a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Nordic Semiconductor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbe62cad-4bca-4282-a872-29662bb39485")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "NPM1100-CAAA-R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "604c4a38-44cb-44a5-899f-6c8dfa79aea8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Mouser Part Number" "949-NPM1100-CAAA-R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72acbda1-658d-4d1e-95d6-96caee28b11f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nPM1100-CAAA-R?qs=TuK3vfAjtkX6Y1svXvOxyA%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0868dc25-b667-49df-8f5a-3d9b23a751de")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "smart_watch.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.26 -0.801)
+		(end -0.799 -1.262)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93896631-c4a8-4b83-86c8-236ef73e5746")
+	)
+	(fp_line
+		(start -1.26 1.26)
+		(end -1.26 -0.801)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83e0279b-6c6d-4adc-afaa-b166a034813d")
+	)
+	(fp_line
+		(start -0.8 -1.261)
+		(end 1.261 -1.261)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6de44ea-8887-4280-a791-559ed5757378")
+	)
+	(fp_line
+		(start 1.261 -1.261)
+		(end 1.261 1.26)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f4d7368-c445-42d2-b241-4be11565af31")
+	)
+	(fp_line
+		(start 1.261 1.26)
+		(end -1.26 1.26)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96adfc04-ae25-4fed-bbc8-e89c802cdd21")
+	)
+	(fp_circle
+		(center -1.261 -1.261)
+		(end -1.261 -1.161)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "334e455a-4799-4253-b53f-ba3f87f8c290")
+	)
+	(fp_line
+		(start -1.538 -1.538)
+		(end 1.537 -1.538)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82921572-f208-4c6f-b9c4-9987576763e9")
+	)
+	(fp_line
+		(start -1.538 1.537)
+		(end -1.538 -1.538)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "609483f5-c598-48ba-bcf1-23f06f8db3e0")
+	)
+	(fp_line
+		(start 1.537 -1.538)
+		(end 1.537 1.537)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8578e0c-99ac-4c7f-85c3-5b34066c3660")
+	)
+	(fp_line
+		(start 1.537 1.537)
+		(end -1.538 1.537)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c09365c-85af-4a6e-9b85-39c42a1c6b1f")
+	)
+	(fp_line
+		(start -1.038 -1.038)
+		(end 1.037 -1.038)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1423552c-4988-4779-8348-92dbeddcf10b")
+	)
+	(fp_line
+		(start -1.038 -0.519)
+		(end -0.519 -1.038)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71499f5b-b589-4aaf-b979-c030a886fc70")
+	)
+	(fp_line
+		(start -1.038 1.037)
+		(end -1.038 -1.038)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70260ea9-1f1a-4260-b7e5-caffd44b0371")
+	)
+	(fp_line
+		(start 1.037 -1.038)
+		(end 1.037 1.037)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad20b54f-fc50-4f81-9c78-89c3af1b47c0")
+	)
+	(fp_line
+		(start 1.037 1.037)
+		(end -1.038 1.037)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72fb393e-f490-42b2-bfcd-36ed6d7ec688")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "83ecd246-5dac-4112-96e6-c7fef14e4d92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.8 -0.8 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f6df8a70-9eab-46d3-90a2-e62f2c1f86a3")
+	)
+	(pad "A2" smd circle
+		(at -0.4 -0.8 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6d88b976-65f5-45cc-8c04-062b9304ecbb")
+	)
+	(pad "A3" smd circle
+		(at 0 -0.8 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "93251d77-fb0b-47ad-a7a8-1d1560235080")
+	)
+	(pad "A4" smd circle
+		(at 0.4 -0.8 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "88ba3a8b-bbb8-4e8b-afb7-05f637b57663")
+	)
+	(pad "A5" smd circle
+		(at 0.8 -0.8 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7f9a3872-855e-43b6-ad2e-5ba040ba38f1")
+	)
+	(pad "B1" smd circle
+		(at -0.8 -0.4 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa0ca2ba-bbea-40d3-881d-9e5b8edc1cf6")
+	)
+	(pad "B2" smd circle
+		(at -0.4 -0.4 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "16c2d509-d540-4c9b-9e1d-c1e849ca3b9e")
+	)
+	(pad "B3" smd circle
+		(at 0 -0.4 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "38d9e5b5-a55c-49cd-8185-8b87bd561009")
+	)
+	(pad "B4" smd circle
+		(at 0.4 -0.4 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e92dd22a-ca3d-4bcf-b26a-da654007e5bb")
+	)
+	(pad "B5" smd circle
+		(at 0.8 -0.4 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fd3c9d94-5cbc-4cfb-98be-155f969bb547")
+	)
+	(pad "C1" smd circle
+		(at -0.8 0 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8108cbfe-5605-4a55-a38b-1b21d542052e")
+	)
+	(pad "C2" smd circle
+		(at -0.4 0 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3fc74da-7854-48a8-93fd-26cc61e5ecdd")
+	)
+	(pad "C3" smd circle
+		(at 0 0 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2afd6ec8-1c3c-4f63-8385-1f7c169e150c")
+	)
+	(pad "C4" smd circle
+		(at 0.4 0 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ba7db3b-d520-4dae-837f-02df5b5cf3dc")
+	)
+	(pad "C5" smd circle
+		(at 0.8 0 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb0f3053-ad31-487e-a0c6-a700bf161882")
+	)
+	(pad "D1" smd circle
+		(at -0.8 0.4 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78a8a1f9-4755-48a7-aaef-8b038d6e141a")
+	)
+	(pad "D2" smd circle
+		(at -0.4 0.4 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ae64c607-d955-4831-bc7b-1c5deac6c8ba")
+	)
+	(pad "D3" smd circle
+		(at 0 0.4 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "45ecb5f4-2e4c-41f7-94a0-edc6d53a020f")
+	)
+	(pad "D4" smd circle
+		(at 0.4 0.4 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1e967d5-89b5-411e-b924-3bcd9b11e0f3")
+	)
+	(pad "D5" smd circle
+		(at 0.8 0.4 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cfa50a03-3736-43e0-ab3c-d3da4c205b8c")
+	)
+	(pad "E1" smd circle
+		(at -0.8 0.8 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5476725-5dee-4b9e-a3fb-4358a51521a2")
+	)
+	(pad "E2" smd circle
+		(at -0.4 0.8 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d8927f89-6fc6-4ae0-9c33-3b31d44b0dca")
+	)
+	(pad "E3" smd circle
+		(at 0 0.8 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e867683-900b-4dff-82af-edf23c975b8f")
+	)
+	(pad "E4" smd circle
+		(at 0.4 0.8 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "58c8534d-0457-4896-955a-a05b5642324e")
+	)
+	(pad "E5" smd circle
+		(at 0.8 0.8 90)
+		(size 0.221 0.221)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e08a657b-1e1f-4f46-9e31-d0ad1aaae134")
+	)
+	(embedded_fonts no)
+	(model "${LOCAL_ASSETS}/halfr.3dshapes/NPM1100-CAAA-R.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

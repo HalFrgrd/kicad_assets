@@ -8,7 +8,7 @@ pkgs.mkShell {
 
   shellHook = ''
     # Convenience alias: simply run `easyeda C2040` (or multiple IDs)
-    alias easyeda='easyeda2kicad --full --output "$PWD/symbols/easyeda_symbols.kicad_sym" --lcsc_id'
+    alias easyeda='easyeda2kicad --full --output easyeda --lcsc_id'
     
     echo "================================================="
     echo " KiCad Assets Nix Environment"
