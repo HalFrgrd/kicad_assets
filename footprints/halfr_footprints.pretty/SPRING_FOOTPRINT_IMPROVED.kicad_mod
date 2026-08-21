@@ -1,0 +1,60 @@
+(footprint "SPRING_FOOTPRINT_IMPROVED"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 2.3 0)
+		(layer "F.SilkS")
+		(uuid "e7bdbb8a-b828-4209-8457-67486a2106dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPRING_FOOTPRINT_IMPROVED"
+		(at 0 -2.2 0)
+		(layer "F.Fab")
+		(uuid "dcb54cc8-e444-42fa-876e-6aa650d2d90c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef676076-3e7c-4f50-b70a-4e5771ce01cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c608d7d-4d97-4d09-a92f-493b75c465ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 4 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "19a988db-f683-4ba0-b9d7-54f714d7ce51")
+	)
+	(embedded_fonts no)
+)

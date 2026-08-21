@@ -1,0 +1,111 @@
+(footprint "MSK-12D19_Sliding_Switch"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.75 1.75 0)
+		(layer "F.SilkS")
+		(uuid "9e860428-2223-42cd-8bc6-aa0c4d9256a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MSK-12D19_Sliding_Switch"
+		(at 0.25 -2.25 0)
+		(layer "F.Fab")
+		(uuid "eb422a2c-5865-4310-8879-c8478b71f337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bda214fc-8ca6-489d-a33a-18072b3b2e3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dc5ab5a-11b5-40ca-83d2-8c5c52790ef1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 0)
+		(end 9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d9df2429-713c-4ac6-8a46-25489326fc98")
+	)
+	(fp_line
+		(start 0 3.5)
+		(end 0 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f8c32598-af1a-4404-9d1d-0fe2cb4aa6e1")
+	)
+	(fp_line
+		(start 9 0)
+		(end 9 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "17709385-e97c-4d3d-b7ba-5cf527064690")
+	)
+	(fp_line
+		(start 9 3.5)
+		(end 0 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7bd6643b-ad65-4d37-ba70-147cc58396cf")
+	)
+	(pad "" smd rect
+		(at 7 5)
+		(size 1.524 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e590e88-cd2f-42de-969d-de339ca532e5")
+	)
+	(pad "1" smd rect
+		(at 2 5)
+		(size 1.524 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "973fa07f-7421-4127-b83e-e9abf025e209")
+	)
+	(pad "2" smd rect
+		(at 4.5 5)
+		(size 1.524 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4fcac68c-1b05-47de-940f-df742413579e")
+	)
+	(embedded_fonts no)
+)

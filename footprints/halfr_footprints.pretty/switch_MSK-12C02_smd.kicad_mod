@@ -1,0 +1,256 @@
+(footprint "switch_MSK-12C02_smd"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.35 0 90)
+		(layer "F.Fab")
+		(uuid "b98fa25f-ab36-4bfb-b7ef-0705847a2c7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at -2.55 0 90)
+		(layer "F.Fab")
+		(uuid "b5f21cff-3060-4c18-8b16-9c3bc5a1ed71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9ba9308-25f1-48f8-b6e8-0ba0ebfb2201")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d66b4e2-72f3-4575-825f-33cef6e01609")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "smart_watch.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 0 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8031db88-7f19-49fa-8b68-8e1959b7f8a9")
+	)
+	(fp_line
+		(start -1.5 -0.2)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f314d41e-9f3a-4534-bff9-b3e781697af5")
+	)
+	(fp_line
+		(start 0 -3.3)
+		(end 0 3.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "84b9306c-8e40-4048-a69a-c6d39fa0a1f4")
+	)
+	(fp_line
+		(start 0 -3.3)
+		(end 2.7 -3.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d6a42586-8dc2-426a-85b7-9272be70c953")
+	)
+	(fp_line
+		(start 0 -0.2)
+		(end -1.5 -0.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8d8434f0-1575-4c97-a67c-35c7b14d9692")
+	)
+	(fp_line
+		(start 0 3.3)
+		(end 2.7 3.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2b0dc7c2-c53a-4b43-9561-52ca2f645ce6")
+	)
+	(fp_line
+		(start 0.3 -1.5)
+		(end 0 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "910d4356-009a-4d5d-b51c-5e89475e8732")
+	)
+	(fp_line
+		(start 0.3 1.5)
+		(end 0 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "16f1267d-f21d-4927-8b64-0e6b1877cf43")
+	)
+	(fp_line
+		(start 0.3 1.5)
+		(end 0.3 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1d396b09-b919-4b1c-90b6-f18c960a0004")
+	)
+	(fp_line
+		(start 2.7 -3.3)
+		(end 2.7 3.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "69c8a930-1e1a-4787-89a5-4f9bd765f0a3")
+	)
+	(fp_rect
+		(start -0.225 -3.6)
+		(end 2.95 3.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fabf9b7c-c88d-4cfc-89cd-2a37fd09b70b")
+	)
+	(fp_text user "ON"
+		(at -0.9 -3.2 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9293db1c-df15-4a09-b365-5d578b7746e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OFF"
+		(at -0.85 2.9 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3ee5136d-1e27-47b4-b5ca-03918190bfc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0.207 -3.6 270)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60716028-6017-4eff-bf05-cd87998fdcd5")
+	)
+	(pad "" smd rect
+		(at 0.207 3.6 270)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0d7cc88b-dde3-4d28-9c52-05694d8cccd2")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.35 -1.45)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "16fee0f8-35c9-4369-bf24-379bbb93defb")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.35 1.45)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "687e49cb-0458-45c4-b4e6-f44e6bdbaca8")
+	)
+	(pad "" smd rect
+		(at 2.493 -3.6 270)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2bbbd3a2-e4e8-41ae-a94d-015b5caa080d")
+	)
+	(pad "" smd rect
+		(at 2.493 3.6 270)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3eb8f32d-5e21-4b61-8670-170197a32454")
+	)
+	(pad "1" smd rect
+		(at 3.2 -2.2)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c5fd79cf-ff2b-4031-8838-e1e071812b98")
+	)
+	(pad "2" smd rect
+		(at 3.2 0.7)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8d16879-97ab-4c74-82bf-8b958b600997")
+	)
+	(pad "3" smd rect
+		(at 3.2 2.2)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4374985e-f3fd-4485-a124-69ed6ea03619")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.wrl"
+		(offset
+			(xyz 1.7 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

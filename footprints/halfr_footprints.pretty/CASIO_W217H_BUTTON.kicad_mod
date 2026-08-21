@@ -1,0 +1,70 @@
+(footprint "CASIO_W217H_BUTTON"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "f7943666-d517-41cf-86b9-968554d6876c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CASIO_W217H_BUTTON"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "ec5abde2-7420-4a3d-86fb-595071b0f941")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84c5395b-fbca-4111-89d9-556b04bdf560")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f6bd666-cba5-4db2-994f-e2f09587cc9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole roundrect
+		(at 2.794 5.461)
+		(size 3 1.524)
+		(drill oval 2.2 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "8af2e553-2162-4c6f-b180-7fabb878ffca")
+	)
+	(pad "2" thru_hole circle
+		(at -0.635 2.54)
+		(size 4 4)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f94738e7-ee74-4f8a-bb65-96b3d348e494")
+	)
+	(embedded_fonts no)
+)

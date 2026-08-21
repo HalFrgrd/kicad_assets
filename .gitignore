@@ -1,5 +1,11 @@
+# KiCad temporary and backup files
+*.bak
+*-bak
+*~
+*.lck
+*.kicad_prl
+fp-info-cache
+
+# Archives and legacy export formats
 *.zip
-templates/
-*.dcm
 *.epw
-*.wrl

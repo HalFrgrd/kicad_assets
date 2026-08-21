@@ -1,0 +1,80 @@
+(footprint "jumper"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "JP1"
+		(at 0 -1.524 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b2ba13db-78aa-4723-b919-efb2cc28177e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SolderJumper_2_Open"
+		(at 0 -1.389 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eca2957c-987a-4779-a8cf-3f986b3b617c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aca55a4-ace3-4add-9774-ceb52eb95cef")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce07820a-f1ad-4ac3-bd08-7adee1427bbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd rect
+		(at 0 1.7145 90)
+		(size 0.4 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.1905)
+		(uuid "5b206baa-b230-43e6-abb1-cf76cee632a4")
+	)
+	(pad "2" smd rect
+		(at 0 1.0795 90)
+		(size 0.4 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.1905)
+		(uuid "621dffbc-eef1-48e8-9f2e-f0e74519507c")
+	)
+	(embedded_fonts no)
+	(model "smd\\resistors\\R0603.wrl"
+		(offset
+			(xyz 0 0 0.02539999962)
+		)
+		(scale
+			(xyz 0.5 0.5 0.5)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

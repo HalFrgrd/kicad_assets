@@ -1,0 +1,105 @@
+(footprint "w800h_outline"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "G***"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7360f8a2-e486-4bf4-a9e1-694630998d1a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "LOGO"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0b89e93e-6fe6-44f8-9b96-11a46bd15e62")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "816833f9-43a2-4876-af8e-d2786988d39f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e915b513-7ae6-4091-845c-c3e8813be8ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -13.716 -37.6555) (xy -13.7795 -37.592) (xy -13.843 -37.6555) (xy -13.7795 -37.719) (xy -13.716 -37.6555)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Eco1.User")
+		(uuid "00759fa2-de23-46a5-86c7-30451db2abed")
+	)
+	(fp_poly
+		(pts
+			(xy -6.096 -34.3535) (xy -6.1595 -34.29) (xy -6.223 -34.3535) (xy -6.1595 -34.417) (xy -6.096 -34.3535)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Eco1.User")
+		(uuid "61d15c94-11e5-4151-939f-1a71bdd7866c")
+	)
+	(fp_poly
+		(pts
+			(xy 0.592666 -40.470667) (xy 0.575233 -40.395166) (xy 0.508 -40.386) (xy 0.403464 -40.432468) (xy 0.423333 -40.470667)
+			(xy 0.574052 -40.485867) (xy 0.592666 -40.470667)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Eco1.User")
+		(uuid "0fbc8eae-4eb7-481d-95ba-3d28fdfae672")
+	)
+	(fp_poly
+		(pts
+			(xy -6.623623 -34.492628) (xy -6.488353 -34.374571) (xy -6.477 -34.346005) (xy -6.537272 -34.293807)
+			(xy -6.662755 -34.41077) (xy -6.679628 -34.436623) (xy -6.694597 -34.523529) (xy -6.623623 -34.492628)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Eco1.User")
+		(uuid "4744df71-fc6a-4c28-8355-7f7bd284aa72")
+	)
+	(embedded_fonts no)
+)

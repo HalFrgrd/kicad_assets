@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name ICM-20948)(type KiCad)(uri ${KIPRJMOD}/ICM-20948)(options "")(descr "")(disabled))
-  (lib (name BMP280)(type KiCad)(uri ${KIPRJMOD}/BMP280)(options "")(descr "")(disabled))
+  (version 7)
+  (lib (name "halfr_footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints/halfr_footprints.pretty")(options "")(descr "Halfr Custom KiCad Footprints"))
+  (lib (name "easyeda_footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints/easyeda_footprints.pretty")(options "")(descr "EasyEDA / LCSC Imported Footprints"))
 )

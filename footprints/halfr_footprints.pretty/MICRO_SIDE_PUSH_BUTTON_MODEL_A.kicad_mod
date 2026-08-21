@@ -1,0 +1,246 @@
+(footprint "MICRO_SIDE_PUSH_BUTTON_MODEL_A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.9 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0810714e-e812-42b1-835b-6b9d51822429")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 0 -2.8 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cea12222-521e-4013-b656-f8fc5c9e6dd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d2ce8ec-614a-49ae-8da0-0dbc9bbb26bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d4822b1-0e0d-4eff-9c2e-901b86031602")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "smart_watch.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.95 0.8)
+		(end -1.95 0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "993f1bf7-086f-4fac-80ec-35ad461d71ca")
+	)
+	(fp_line
+		(start -1.4 -0.85)
+		(end 1.3 -0.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d49cae36-5978-4b02-bedd-c72adce0bcf1")
+	)
+	(fp_line
+		(start -1 -2.05)
+		(end -1 -0.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "894e0d15-8a87-407e-971f-62089a323577")
+	)
+	(fp_line
+		(start -1 -2.05)
+		(end 1 -2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6753bcf0-2562-429b-8794-82845e3dc591")
+	)
+	(fp_line
+		(start 1 -0.9)
+		(end 1 -2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7285b90-6173-42ab-b356-ecbb1e931db5")
+	)
+	(fp_line
+		(start 1.25 1.45)
+		(end -1.25 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8727b28-9184-4509-a1b4-92a831cb2249")
+	)
+	(fp_line
+		(start 1.85 0.8)
+		(end 1.85 0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72c49fd3-fd65-4ef3-ae01-b7cd02ab8777")
+	)
+	(fp_line
+		(start -1.95 1.45)
+		(end -1.95 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57d88659-b1c1-48e0-940c-37fcc6411115")
+	)
+	(fp_line
+		(start -1 -2.05)
+		(end -1 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9e0164c-634e-4992-8d4e-5825717bce59")
+	)
+	(fp_line
+		(start -1 -2.05)
+		(end 1 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e06c34dd-cf8c-4dd3-855b-27f68db5321b")
+	)
+	(fp_line
+		(start 1 -2.05)
+		(end 1 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18a99d86-faf5-4ad5-a019-4e205b98ff0a")
+	)
+	(fp_line
+		(start 1.85 -0.85)
+		(end 1.85 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d186951-b5ae-46c4-ad8a-1fc7fdb9328c")
+	)
+	(fp_line
+		(start 1.85 1.45)
+		(end -1.95 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff01f229-ccc7-4927-8430-2eef35966a98")
+	)
+	(fp_line
+		(start 2.25 -0.85)
+		(end -2.25 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3849abe-25ad-4711-a6d6-c73b758d1fb2")
+	)
+	(pad "" smd custom
+		(at -2.8 0.1 180)
+		(size 0.001 0.001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 0) (xy -0.8 0) (xy -0.8 0.65) (xy -1.3 0.65) (xy -1.3 1.3) (xy 0 1.3)
+				)
+				(width 0.05)
+				(fill yes)
+			)
+		)
+		(uuid "91f24042-aade-4b51-b9c4-dd15a756ade7")
+	)
+	(pad "" smd custom
+		(at 2.7 0.1 180)
+		(size 0.001 0.001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 0) (xy 0.8 0) (xy 0.8 0.65) (xy 1.3 0.65) (xy 1.3 1.3) (xy 0 1.3)
+				)
+				(width 0.05)
+				(fill yes)
+			)
+		)
+		(uuid "b5ce4aff-d02c-4fee-95ba-b254f1148764")
+	)
+	(pad "1" smd rect
+		(at 1.75 1.55)
+		(size 0.8 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1fbc11f9-9069-4b78-bddd-b04b9f80d2d2")
+	)
+	(pad "2" smd rect
+		(at -1.75 1.55)
+		(size 0.8 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d62a9dfb-8a71-41b5-a31e-57977a060a30")
+	)
+	(embedded_fonts no)
+)

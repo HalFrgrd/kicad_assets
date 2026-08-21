@@ -1,0 +1,254 @@
+(footprint "Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal 2012/2 http://txccrystal.com/images/pdf/9ht11.pdf, hand-soldering, 2.0x1.2mm^2 package")
+	(tags "SMD SMT crystal hand-soldering")
+	(property "Reference" "REF**"
+		(at 2.5146 -0.1524 90)
+		(layer "F.SilkS")
+		(uuid "afeea7dc-6df2-452f-899e-70550e77bdb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "32.768kHz"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "fceebe1e-6149-41da-95f8-c3b55313e551")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13378f8c-e74b-42b2-8f01-fc1766fdd204")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54df15ba-ff85-4467-bcd4-c13a2890c1d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "smart_watch.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.65 -0.8)
+		(end -1.65 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c56c5ed-c835-4624-9e06-1305f2572161")
+	)
+	(fp_line
+		(start -1.65 0.8)
+		(end 1.2 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8fd30689-15c5-47dd-82aa-6cff7da603d4")
+	)
+	(fp_line
+		(start 1.2 -0.8)
+		(end -1.65 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49fadb8e-1bb1-4933-ab7c-c86265469bc6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.046667 0)
+		(stroke
+			(width 0.093333)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "9d6c202e-835a-41a5-bc0a-b3a69debcea1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.106667 0)
+		(stroke
+			(width 0.066667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "87225165-f6e3-44e9-8b73-81f4cf03a19a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.166667 0)
+		(stroke
+			(width 0.066667)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "02cecb92-49b8-4375-8898-823a8ccc0af7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Adhes")
+		(uuid "e02d46df-f2e1-47a3-aeb5-f6dbc3d8fd4a")
+	)
+	(fp_line
+		(start -1.7 -0.9)
+		(end -1.7 0.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "09c1d811-d329-4082-85d3-589d4da8dd46")
+	)
+	(fp_line
+		(start -1.7 0.9)
+		(end 1.7 0.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c9acb92-fe89-4089-8cbb-188d9ad11a07")
+	)
+	(fp_line
+		(start 1.7 -0.9)
+		(end -1.7 -0.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06263950-4d40-45b2-bb9c-4ae1a0417b05")
+	)
+	(fp_line
+		(start 1.7 0.9)
+		(end 1.7 -0.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1bb16caa-a549-44a1-bb80-f187d08e8ed7")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ab28605-cddb-41a0-ab09-3fc0dc11ced7")
+	)
+	(fp_line
+		(start -1 0.1)
+		(end -0.5 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef0f1454-1222-4ed0-8efa-db650102177b")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db45c1cb-7428-469a-aa54-158cd236440c")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffd9bef1-eb9a-490f-bdb0-b70a4f584a9e")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c904458e-b82b-4e0b-92d0-b75eab8f24b4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3809d77e-13cc-42cc-8812-0504efa39571")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.925 0)
+		(size 1.05 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "70ffbac3-f426-424d-969b-ac58bfb9f08f")
+	)
+	(pad "2" smd rect
+		(at 0.925 0)
+		(size 1.05 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ae406fe9-e4dc-4163-8934-e0d1df2f3576")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

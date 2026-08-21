@@ -1,0 +1,81 @@
+(footprint "BMP280_BREAKOUT_CONN"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.662 -2.9415 0)
+		(layer "F.SilkS")
+		(uuid "4733f43b-6419-46c7-a62c-e04b2dfeb2e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BMP280_BREAKOUT_CONN"
+		(at 0.662 -3.9415 0)
+		(layer "F.Fab")
+		(uuid "1e822ece-5d65-4026-8df5-0b15141a3a49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1ed905e-efdc-47bc-ab8a-1034299ddcb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa74cdc3-2c9a-4262-b277-ae72d948c008")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "2" smd roundrect
+		(at -1.1 -1.0795)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "43d904df-3a54-4fc3-9f35-1da01a4905a2")
+	)
+	(pad "3" smd roundrect
+		(at 1.1 -1.057 90)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "dd7e382a-4646-4388-b3b0-6fbba50dbfb2")
+	)
+	(pad "4" smd roundrect
+		(at -1.1 1.1205 90)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "591dea59-c358-494d-9e32-20b38f5ff164")
+	)
+	(pad "5" smd roundrect
+		(at 1.1 1.143)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "024c1ab3-0f05-430f-bb2e-95af7c687389")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,144 @@
+(footprint "battery_holder_bs-7"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf")
+	(property "Reference" "J4"
+		(at 0.015129 0.635 180)
+		(layer "Dwgs.User")
+		(uuid "9f1e7dc3-521f-4f84-8ab4-93e829efe5d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x02"
+		(at 0.015129 3.175 180)
+		(layer "F.Fab")
+		(uuid "ec6e6f30-61c4-470f-bf6e-b59065bd1817")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbfac06e-58f8-4559-a6e3-2c0a29666eb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7a6f010-1baa-42e4-bfdb-2f1b119b4b3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0.015129 -0.106825)
+		(end 0.015129 -11.333625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4af4c275-5ccf-4232-9f9a-5e70b126b80b")
+	)
+	(fp_line
+		(start -3.794871 -13.314825)
+		(end 3.825129 -13.314825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a87bff6-452c-4b28-90cb-3e4300ca509b")
+	)
+	(fp_line
+		(start -3.794871 -10.622425)
+		(end -3.794871 -13.314825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59fb6744-0aee-452b-b15c-f46dafd18318")
+	)
+	(fp_line
+		(start 3.825129 -10.622425)
+		(end 3.825129 -13.314825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cd70cf8-ed3c-4af8-8c56-8341ab0b69ad")
+	)
+	(fp_circle
+		(center 0.015129 -0.139225)
+		(end 0.015129 -10.139225)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5eb881f4-f9e3-4006-ab1a-dfd81e5d237c")
+	)
+	(fp_circle
+		(center 0.015129 -0.106825)
+		(end 0.015129 11.069175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5d0fc258-cab9-4588-925d-49fdb189d7c4")
+	)
+	(fp_text user "REF***"
+		(at 0 -1.905 180)
+		(layer "F.Fab")
+		(uuid "c12928d7-c4d4-4f69-b5ad-451c3182c471")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0.015129 -12.639225 90)
+		(size 1.2 1.2)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0e2f789a-b4c2-4194-a1c0-bd2b9531b688")
+	)
+	(pad "2" thru_hole rect
+		(at 0.015129 7.360775 90)
+		(size 1.2 1.2)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34e07961-7199-44c9-8a75-d446af331699")
+	)
+	(embedded_fonts no)
+)
