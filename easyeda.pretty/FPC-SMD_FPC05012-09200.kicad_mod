@@ -48,7 +48,7 @@
 	(fp_line (start -4.77 3.79) (end -4.80 3.82) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -4.80 3.82) (end -4.80 4.64) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -4.80 4.64) (end 4.82 4.62) (layer F.CrtYd) (width 0.05))
-	(model "${LOCAL_ASSETS}/easyeda.3dshapes/FPC-SMD_FPC05012-09200.wrl"
+	(model "easyeda.3dshapes/FPC-SMD_FPC05012-09200.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
