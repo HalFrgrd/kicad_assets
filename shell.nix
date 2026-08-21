@@ -7,8 +7,8 @@ pkgs.mkShell {
   ];
 
   shellHook = ''
-    # Convenience alias: simply run `easyeda C2040` (or multiple IDs)
-    alias easyeda='easyeda2kicad --full --output easyeda --lcsc_id'
+    REPO_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo "$PWD")"
+    alias easyeda="easyeda2kicad --full --output \"\$REPO_DIR/easyeda\" --lcsc_id"
     
     echo "================================================="
     echo " KiCad Assets Nix Environment"
