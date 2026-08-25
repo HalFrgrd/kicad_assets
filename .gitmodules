@@ -4,3 +4,6 @@
 [submodule "third_party/keyswitches.pretty"]
 	path = third_party/keyswitches.pretty
 	url = https://github.com/daprice/keyswitches.pretty
+[submodule "third_party/Seeed-Studio"]
+	path = third_party/Seeed-Studio
+	url = git@github.com:Seeed-Studio/OPL_Kicad_Library.git
