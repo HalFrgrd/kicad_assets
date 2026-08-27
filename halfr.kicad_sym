@@ -7548,7 +7548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "halfr:SlickBug_Target_V1"
 			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7603,26 +7603,6 @@
 				)
 			)
 		)
-		(symbol "Conn_SWD_SlickBug_V1_0_0"
-			(pin power_in line
-				(at 6.35 3.81 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Conn_SWD_SlickBug_V1_0_1"
 			(rectangle
 				(start -5.08 6.35)
@@ -7637,10 +7617,28 @@
 			)
 		)
 		(symbol "Conn_SWD_SlickBug_V1_1_0"
-			(pin bidirectional line
+			(pin power_in line
+				(at 6.35 3.81 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
 				(at 6.35 1.27 180)
 				(length 2.54)
-				(name "SWDIO"
+				(name "SWCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7655,10 +7653,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 6.35 -1.27 180)
 				(length 2.54)
-				(name "SWCLK"
+				(name "SWDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7676,7 +7674,7 @@
 			(pin power_in line
 				(at 6.35 -3.81 180)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
