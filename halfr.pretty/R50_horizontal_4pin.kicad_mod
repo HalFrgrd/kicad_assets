@@ -7,7 +7,7 @@
 		(at 0 1.27 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7078c1de-a123-4b55-af5d-87a57868b67d")
+		(uuid "dc20b388-f146-446f-bb5e-9c4eb2bee4c2")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at -0.127 4.342 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "430fbd1e-a13c-40f3-9bbf-a0607cfc9a58")
+		(uuid "7b792586-a59b-40c0-8342-15faa40ee1ff")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dc546fe5-5a20-4702-b812-f4744fbd7c60")
+		(uuid "b8dc86f2-ec83-47d8-bd72-1016df9282b4")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1949c470-7b1e-4f09-931e-24ae83c21ed6")
+		(uuid "c6d18d28-f27c-4b26-a814-ed5ebc66d962")
 		(effects
 			(font
 				(size 1 1)
@@ -64,13 +64,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "616534b3-c851-49b7-b618-a2b42564de27")
+		(uuid "1e149e45-b858-4eba-9545-69ebc64a3b96")
 	)
 	(fp_text user "3V3"
-		(at -5.2324 6.8072 90)
+		(at -4.9784 6.8072 90)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
-		(uuid "cbbee92e-ba27-4399-84ee-6e20daf0ae3c")
+		(uuid "a0456371-f654-472d-8c97-f42fb97b0d7d")
 		(effects
 			(font
 				(size 1.3 1.3)
@@ -81,10 +81,10 @@
 		)
 	)
 	(fp_text user "IO"
-		(at -3.2324 6.9088 90)
+		(at -2.9784 6.9088 90)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
-		(uuid "a7de523a-5835-435e-9100-c720864a4af0")
+		(uuid "2ce1f48e-5fa9-4af8-9426-e25d2bf248a2")
 		(effects
 			(font
 				(size 1.3 1.3)
@@ -95,10 +95,10 @@
 		)
 	)
 	(fp_text user "CLK"
-		(at 5.0176 6.9048 90)
+		(at 4.6228 6.9048 90)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
-		(uuid "36f1bda5-9c61-4fde-b19e-b7a0f61000f5")
+		(uuid "2a3c1147-ec41-4cc4-bc49-7ed70d699b2d")
 		(effects
 			(font
 				(size 1.3 1.3)
@@ -109,10 +109,10 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 7.0176 6.9048 90)
+		(at 6.604 6.9048 90)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
-		(uuid "cfbdc540-1728-4b64-96df-1f1f99dd764a")
+		(uuid "a72e5193-b3a1-40f3-b447-6712f605982d")
 		(effects
 			(font
 				(size 1.3 1.3)
@@ -126,7 +126,7 @@
 		(at -0.127 5.842 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "cd874d72-507f-4c4f-a520-cca28ab8befe")
+		(uuid "7aaa998f-9014-4ef4-b303-4e60f3b3f107")
 		(effects
 			(font
 				(size 1 1)
@@ -143,7 +143,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.08333333333)
-		(uuid "7ddacaec-13e3-4753-9472-8ea6f1d7f92a")
+		(uuid "4f5335b3-8d90-46be-b18b-c1bc3971a79c")
 	)
 	(pad "" thru_hole roundrect
 		(at -3.8 8.636)
@@ -154,7 +154,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.08333333333)
-		(uuid "27ea1257-b579-411c-a930-01c400108ffc")
+		(uuid "0c57e8d1-b0fd-4aaa-b5bd-f1c6df0908ce")
 	)
 	(pad "" thru_hole roundrect
 		(at 3.8 0.762)
@@ -165,7 +165,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.08333333333)
-		(uuid "53379ef4-138d-4ca1-885b-e3d26f492376")
+		(uuid "9de5be6a-8c45-4412-a0a7-ce2736ef956d")
 	)
 	(pad "" thru_hole roundrect
 		(at 3.8 8.636)
@@ -176,31 +176,31 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.08333333333)
-		(uuid "6dbe974a-ac66-4728-a938-e0bca865e049")
+		(uuid "e6105146-2349-4915-9540-b3e2423bcfb3")
 	)
 	(pad "1" smd rect
 		(at -1.905 -4.191)
 		(size 0.8 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "4a7e7345-fa75-46f9-8a4a-983bb01d9a87")
+		(uuid "d8100f54-f432-4348-80bd-907e1f5c3b23")
 	)
 	(pad "2" smd rect
 		(at -0.635 -4.191)
 		(size 0.8 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "6af2f42f-71ba-4bb8-b2a1-0aaa838c2a98")
+		(uuid "bb71bf18-db6b-4975-8437-0f3835a2e35c")
 	)
 	(pad "3" smd rect
 		(at 0.635 -4.191)
 		(size 0.8 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0260fac3-77fd-48f3-a18f-5fb34e5cf7e6")
+		(uuid "64c6bfa3-d559-4a29-b691-b10bf0b62c5e")
 	)
 	(pad "4" smd rect
 		(at 1.905 -4.191)
 		(size 0.8 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "536ed749-6988-4109-a3a9-ef73b6694b33")
+		(uuid "d06558d9-7e68-4b14-a4b0-0884c642b1d3")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/kicad_assets/halfr.3dshapes/R50-2C_Main.step"
