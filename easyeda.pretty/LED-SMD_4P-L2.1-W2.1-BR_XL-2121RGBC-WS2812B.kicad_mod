@@ -1,0 +1,244 @@
+(footprint "LED-SMD_4P-L2.1-W2.1-BR_XL-2121RGBC-WS2812B"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "2525a092-a09a-4d55-999f-193a5be31451")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L2.1-W2.1-BR_XL-2121RGBC-WS2812B"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "8f36cca0-b0ab-452c-bf24-ca63f5bca3d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93ac950b-06dc-4027-bd9d-d07c5b2dfc24")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84374aeb-7a47-4cc6-8d0f-6e57c9bd2c62")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C5349957"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "546c48c2-2386-433d-8451-e4c2e0c6c266")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.05 -1.05)
+		(end 1.05 -1.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f5dfed7-de99-40dc-8297-0984a1b9cd96")
+	)
+	(fp_line
+		(start -1.05 -1.03)
+		(end -1.05 -1.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bafc9a0-67ef-49ea-ae3e-5eb3dd04b681")
+	)
+	(fp_line
+		(start -1.05 1.05)
+		(end -1.05 1.03)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5d3df9d-f07a-4ac0-8df7-c7915c269c4b")
+	)
+	(fp_line
+		(start 1.05 -1.05)
+		(end 1.05 -1.03)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57934659-ca47-4edc-9e37-76f61b632a7f")
+	)
+	(fp_line
+		(start 1.05 1.03)
+		(end 1.05 1.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af8e36a6-38c5-4146-989a-493339dee828")
+	)
+	(fp_line
+		(start 1.05 1.05)
+		(end -1.05 1.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70092bc2-e533-46e6-803f-384442ce3d5e")
+	)
+	(fp_circle
+		(center 1.05 1.05)
+		(end 1.08 1.05)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d8c2e50c-54b1-40a9-9b3b-6b8ed4c5d19a")
+	)
+	(fp_poly
+		(pts
+			(xy 1.200048 1.100049) (xy 1.600048 1.100049) (xy 1.600048 0.700049) (xy 1.200048 1.100049)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "768bdc98-cdc5-4afb-801b-a73948c49481")
+	)
+	(fp_rect
+		(start -1.05 -1.05)
+		(end 1.05 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "95a46b48-a51c-40d8-9689-7a0db686b145")
+	)
+	(fp_line
+		(start -1.05 -1.05)
+		(end 1.05 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd0e0f3b-6c54-4022-b83e-849084e66a0d")
+	)
+	(fp_line
+		(start -1.05 1.05)
+		(end -1.05 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d521ea63-41f3-495d-87f8-b3cf81091005")
+	)
+	(fp_line
+		(start 1.05 -1.05)
+		(end 1.05 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0df023d-40ab-45fb-af96-30b309aa549b")
+	)
+	(fp_line
+		(start 1.05 1.05)
+		(end -1.05 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "287e5dcc-3c9e-4381-971b-0e03093a3c68")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8031dc8f-42e4-49ab-8a4d-9776d4197c58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 0.5 180)
+		(size 0.85 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7dd31a58-28f0-4965-a93e-2b648c0cdd7f")
+	)
+	(pad "2" smd rect
+		(at -1.2 -0.5 180)
+		(size 0.85 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2404b3e8-ccaf-4318-b33b-a9bc12cb9593")
+	)
+	(pad "3" smd rect
+		(at 1.2 -0.5 180)
+		(size 0.85 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f6d51f1-c1c0-4df3-940f-06ab79d6e557")
+	)
+	(pad "4" smd rect
+		(at 1.2 0.5 180)
+		(size 0.85 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0fb4b059-4a00-4856-82ae-b0557f6c58ed")
+	)
+	(embedded_fonts no)
+	(model "/home/hal/projects/smart_watch/pcb/kicad_assets/easyeda.3dshapes/XL-2121RGBC-WS2812B.stp"
+		(offset
+			(xyz 0 0 -0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)
