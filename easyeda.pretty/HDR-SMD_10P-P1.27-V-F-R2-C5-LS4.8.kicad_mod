@@ -36,7 +36,7 @@
 	(pad 10 smd rect (at 2.54 -1.80 90.00) (size 2.20 0.74) (layers F.Cu F.Paste F.Mask))
 	(fp_circle (center -3.37 2.40) (end -3.34 2.40) (layer F.Fab) (width 0.06))
 	(fp_circle (center -3.68 2.29) (end -3.43 2.29) (layer F.SilkS) (width 0.25))
-	(model "/home/hal/projects/walarc_lp/hardware/kicad_assets/easyeda.3dshapes/HDR-SMD_10P-P1.27-F-LS-2X5P.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/HDR-SMD_10P-P1.27-F-LS-2X5P.wrl"
 		(offset (xyz 0.000 -0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

@@ -141,7 +141,7 @@
 		(uuid "8fbb0802-a6fb-492b-a710-35d5632b0ab7")
 	)
 	(embedded_fonts no)
-	(model "/home/hal/projects/smart_watch/pcb/kicad_assets/halfr.3dshapes/Same_Sky_UJ20-C-V-G-SMT-P16-TR-66_on_shim.step"
+	(model "${KIPRJMOD}/../kicad_assets/halfr.3dshapes/Same_Sky_UJ20-C-V-G-SMT-P16-TR-66_on_shim.step"
 		(offset
 			(xyz -129.2 84.5 0)
 		)

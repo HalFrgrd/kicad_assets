@@ -42,7 +42,7 @@
 	(fp_line (start 8.50 -0.18) (end 8.50 5.32) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 8.50 5.32) (end -8.50 5.32) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy 5.364988 -0.879983) (xy 5.614975 -0.879983) (xy 5.494985 -1.380007) (xy 5.364988 -0.879983)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	(model "/home/hal/projects/walarc_lp/hardware/kicad_assets/easyeda.3dshapes/FPC-SMD_FPC1.0-2-10P.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/FPC-SMD_FPC1.0-2-10P.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

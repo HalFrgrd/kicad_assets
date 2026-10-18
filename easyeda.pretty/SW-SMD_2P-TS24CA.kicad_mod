@@ -242,7 +242,7 @@
 		(uuid "7bec811f-3bff-4d31-8eff-f9fac3e60ed4")
 	)
 	(embedded_fonts no)
-	(model "/home/hal/projects/walarc_lp/hardware/kicad_assets/easyeda.3dshapes/SW-SMD_2P-TS24CA.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/SW-SMD_2P-TS24CA.wrl"
 		(offset
 			(xyz 0 1.02 0.4)
 		)

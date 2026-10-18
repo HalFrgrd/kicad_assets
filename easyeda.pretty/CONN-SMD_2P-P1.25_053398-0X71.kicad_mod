@@ -29,7 +29,7 @@
 	(fp_line (start 2.16 -0.13) (end 3.68 -0.13) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 3.68 -0.13) (end 3.62 2.55) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 3.62 2.55) (end -3.63 2.55) (layer F.CrtYd) (width 0.05))
-	(model "/home/hal/projects/smart_watch/pcb/kicad_assets/easyeda.3dshapes/CONN-SMD_2P-P1.25_053398-0X71.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/CONN-SMD_2P-P1.25_053398-0X71.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 180))

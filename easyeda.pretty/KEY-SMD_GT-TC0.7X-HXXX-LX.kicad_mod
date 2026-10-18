@@ -323,7 +323,7 @@
 		(uuid "440bda0d-3214-4b1c-b687-24d40a769230")
 	)
 	(embedded_fonts no)
-	(model "/home/hal/projects/smart_watch/pcb/kicad_assets/easyeda.3dshapes/KEY-SMD_GT-TC0.7X-HXXX-LX.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/KEY-SMD_GT-TC0.7X-HXXX-LX.wrl"
 		(offset
 			(xyz 0 0 0.9)
 		)

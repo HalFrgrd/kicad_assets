@@ -46,7 +46,7 @@
 	(fp_line (start -0.78 -0.78) (end 0.78 -0.78) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 0.78 -0.78) (end 0.78 0.78) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 0.78 0.78) (end -0.78 0.78) (layer F.CrtYd) (width 0.05))
-	(model "/home/hal/projects/smart_watch/pcb/kicad_assets/easyeda.3dshapes/WLCSP-12_L1.6-W1.6-H0.6_BMM150.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/WLCSP-12_L1.6-W1.6-H0.6_BMM150.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

@@ -23,7 +23,7 @@
 	(fp_line (start 0.00 -1.00) (end 1.00 0.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.00 0.00) (end 1.00 0.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.00 0.00) (end 0.00 1.00) (layer F.CrtYd) (width 0.05))
-	(model "/home/hal/projects/kicad_assets/easyeda.3dshapes/TESTPOINT-SMD_BD2.0-D1.0_PG1000-01-010P.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/TESTPOINT-SMD_BD2.0-D1.0_PG1000-01-010P.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

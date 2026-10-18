@@ -63,7 +63,7 @@
 	(fp_line (start -2.25 2.25) (end 2.25 2.25) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.25 2.25) (end 2.25 -2.25) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.25 -2.25) (end -2.25 -2.25) (layer F.CrtYd) (width 0.05))
-	(model "/home/hal/projects/smart_watch/pcb/kicad_assets/easyeda.3dshapes/COMM-SMD_L4.5-W4.5-P0.55-S0.55-TR.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/COMM-SMD_L4.5-W4.5-P0.55-S0.55-TR.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

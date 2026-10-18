@@ -62,7 +62,7 @@
 	(fp_line (start -4.47 -2.18) (end 4.47 -2.18) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 4.47 -2.18) (end 4.47 4.62) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 4.47 4.62) (end -4.47 4.62) (layer F.CrtYd) (width 0.05))
-	(model "/home/hal/projects/kicad_assets/easyeda.3dshapes/TYPE-C-SMD_6P-L8.9-W6.8-H3.2-P1.00.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/TYPE-C-SMD_6P-L8.9-W6.8-H3.2-P1.00.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 180))

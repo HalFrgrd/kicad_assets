@@ -29,7 +29,7 @@
 	(fp_circle (center -4.00 -1.86) (end -3.97 -1.86) (layer F.Fab) (width 0.06))
 	(fp_circle (center -1.50 0.55) (end -1.31 0.55) (layer Cmts.User) (width 0.38))
 	(fp_circle (center 1.50 0.55) (end 1.69 0.55) (layer Cmts.User) (width 0.38))
-	(model "/home/hal/projects/walarc_lp/hardware/kicad_assets/easyeda.3dshapes/SW-SMD_3P-L6.6-W2.7-LS7.8-P1.50.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/SW-SMD_3P-L6.6-W2.7-LS7.8-P1.50.wrl"
 		(offset (xyz 0.000 -0.750 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 180))

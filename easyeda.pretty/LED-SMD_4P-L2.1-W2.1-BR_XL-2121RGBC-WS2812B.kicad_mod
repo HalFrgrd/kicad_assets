@@ -150,7 +150,7 @@
 		(uuid "8a8d0b88-f292-426a-82df-fe010e502030")
 	)
 	(embedded_fonts no)
-	(model "/home/hal/projects/smart_watch/pcb/kicad_assets/easyeda.3dshapes/XL-2121RGBC-WS2812B.stp"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/XL-2121RGBC-WS2812B.stp"
 		(offset
 			(xyz 0 0 -0.2)
 		)

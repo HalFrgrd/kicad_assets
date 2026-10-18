@@ -522,7 +522,7 @@
 		(uuid "34e8eae5-dee5-4084-b72d-9e0ff99a84dd")
 	)
 	(embedded_fonts no)
-	(model "/home/hal/projects/smart_watch/pcb/kicad_assets/easyeda.3dshapes/UJ20-C-V-G-SMT-P16-TR-66.step"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/UJ20-C-V-G-SMT-P16-TR-66.step"
 		(offset
 			(xyz 0 -2.8 2.5)
 		)

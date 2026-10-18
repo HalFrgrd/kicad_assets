@@ -29,7 +29,7 @@
 	(fp_line (start -3.12 -3.15) (end 5.88 -3.15) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 5.88 -3.15) (end 5.88 3.15) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 5.88 3.15) (end -3.12 3.15) (layer F.CrtYd) (width 0.05))
-	(model "/home/hal/projects/walarc_lp/hardware/kicad_assets/easyeda.3dshapes/XFCN_PKT-TH_4P-T34069.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/XFCN_PKT-TH_4P-T34069.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

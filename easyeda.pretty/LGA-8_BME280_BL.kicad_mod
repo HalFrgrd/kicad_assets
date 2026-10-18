@@ -29,7 +29,7 @@
 	(fp_line (start -1.25 1.25) (end -1.25 -1.25) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -1.25 -1.25) (end 1.25 -1.25) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.25 -1.25) (end 1.25 1.25) (layer F.CrtYd) (width 0.05))
-	(model "/home/hal/projects/smart_watch/pcb/kicad_assets/easyeda.3dshapes/LGA-8_L2.5-W2.5-H0.9-P0.65.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/LGA-8_L2.5-W2.5-H0.9-P0.65.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

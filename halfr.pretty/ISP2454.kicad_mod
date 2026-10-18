@@ -576,7 +576,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/home/hal/projects/smart_watch/pcb/kicad_assets/halfr.3dshapes/ISP2454_3D.stp"
+	(model "${KIPRJMOD}/../kicad_assets/halfr.3dshapes/ISP2454_3D.stp"
 		(offset
 			(xyz -4 -4 0)
 		)

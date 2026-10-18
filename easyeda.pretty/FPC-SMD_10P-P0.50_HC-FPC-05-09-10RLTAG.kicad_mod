@@ -268,7 +268,7 @@
 		(uuid "b5366fc4-be9c-4d76-81c9-1cf1b338a17e")
 	)
 	(embedded_fonts no)
-	(model "/home/hal/projects/walarc_lp/hardware/kicad_assets/easyeda.3dshapes/FPC-SMD_10P-P0.50_HC-FPC-05-09-10RLTAG.wrl"
+	(model "${KIPRJMOD}/../kicad_assets/easyeda.3dshapes/FPC-SMD_10P-P0.50_HC-FPC-05-09-10RLTAG.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
