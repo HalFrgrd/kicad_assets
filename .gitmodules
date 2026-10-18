@@ -4,4 +4,5 @@
 [submodule "datasheets"]
 	path = datasheets
 	url = git@github.com:HalFrgrd/kicad_datasheets.git
+	update = none
 
