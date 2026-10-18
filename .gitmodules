@@ -3,6 +3,6 @@
 	url = https://github.com/HalFrgrd/slickbug.git
 [submodule "datasheets"]
 	path = datasheets
-	url = git@github.com:HalFrgrd/kicad_datasheets.git
+	url = git@github.com:HalFrgrd/datasheets.git
 	update = none
 
