@@ -8,7 +8,10 @@ pkgs.mkShell {
 
   shellHook = ''
     REPO_DIR="$(git rev-parse --show-toplevel 2>/dev/null || echo "$PWD")"
-    alias easyeda="easyeda2kicad --full --output \"\$REPO_DIR/easyeda\" --lcsc_id"
+    easyeda2kicad() {
+      command easyeda2kicad --project-relative "$@"
+    }
+    alias easyeda="easyeda2kicad --full --project-relative --output \"\$REPO_DIR/easyeda\" --lcsc_id"
     
     echo "================================================="
     echo " KiCad Assets Nix Environment"
