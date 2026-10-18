@@ -1,3 +1,7 @@
 [submodule "slickbug"]
 	path = slickbug
 	url = https://github.com/HalFrgrd/slickbug.git
+[submodule "datasheets"]
+	path = datasheets
+	url = git@github.com:HalFrgrd/kicad_datasheets.git
+
