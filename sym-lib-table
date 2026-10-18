@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "halfr")(type "KiCad")(uri "${KIPRJMOD}/halfr.kicad_sym")(options "")(descr "Halfr Custom KiCad Symbols"))
   (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/easyeda.kicad_sym")(options "")(descr "EasyEDA / LCSC Imported Symbols"))
+  (lib (name "slick_bug_target")(type "KiCad")(uri "${KIPRJMOD}/slickbug/hardware/slick_bug_target/slick_bug_target.kicad_sym")(options "")(descr "SlickBug SWD Target Connector"))
 )

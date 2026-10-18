@@ -1,0 +1,3 @@
+[submodule "slickbug"]
+	path = slickbug
+	url = https://github.com/HalFrgrd/slickbug.git

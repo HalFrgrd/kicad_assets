@@ -2,6 +2,7 @@
   (version 7)
   (lib (name "halfr")(type "KiCad")(uri "${KIPRJMOD}/halfr.pretty")(options "")(descr "Halfr Custom KiCad Footprints"))
   (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/easyeda.pretty")(options "")(descr "EasyEDA / LCSC Imported Footprints"))
+  (lib (name "slick_bug_target")(type "KiCad")(uri "${KIPRJMOD}/slickbug/hardware/slick_bug_target/slick_bug_target.pretty")(options "")(descr "SlickBug SWD Target Footprints"))
   (lib (name "MX_Hotswap")(type "KiCad")(uri "${KIPRJMOD}/third_party/MX_V2/MX_Hotswap.pretty")(options "")(descr "ai03 MX Hotswap Footprints"))
   (lib (name "MX_Solderable")(type "KiCad")(uri "${KIPRJMOD}/third_party/MX_V2/MX_Solderable.pretty")(options "")(descr "ai03 MX Solderable Footprints"))
   (lib (name "MX_Alps_Hybrid")(type "KiCad")(uri "${KIPRJMOD}/third_party/MX_V2/MX_Alps_Hybrid.pretty")(options "")(descr "ai03 MX/Alps Hybrid Footprints"))
